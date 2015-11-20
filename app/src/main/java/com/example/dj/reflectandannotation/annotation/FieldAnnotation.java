@@ -15,7 +15,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface FieldAnnotation {
     /**
-     * 关于隐私的注解的值。
+     * 注解的参数privacyType的值。
      */
     int PRIVACY = 0;      //隐私的属性
     int PUBLIC = 1;       //公开的属性
